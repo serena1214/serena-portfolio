@@ -8,6 +8,7 @@
   grid-auto-flow: column;
   background-image: url("/src/assets/portfolio-bg.jpg");
   z-index: 100;
+  height: var(--header-height);
 }
 
 .header__logo {
