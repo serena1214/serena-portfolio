@@ -1,2 +1,15 @@
 .HEADER {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 36px 50px;
+  display: grid;
+  grid-auto-flow: column;
+  background-image: url("../../assets/bg-1.svg");
+}
+
+.header__logo {
+  height: 25px;
+  width: auto;
 }
