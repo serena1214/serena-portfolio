@@ -6,7 +6,7 @@
   padding: 36px 50px;
   display: grid;
   grid-auto-flow: column;
-  background-image: url("../../assets/bg-1.svg");
+  background-image: url("/src/assets/portfolio-bg.jpg");
   z-index: 100;
 }
 

@@ -1,10 +1,10 @@
 #root {
+  --vh: 1vh;
+  --vw: 1vw;
   --app-max-width: 1920px;
   --black: #3c3733;
   --brown: #706962;
   --tan: #f4ede5;
-  --vh: 1vh;
-  --vw: 1vw;
 
   * {
     box-sizing: border-box;
@@ -17,10 +17,41 @@
   }
 }
 
-main * {
-  color: var(--black);
+html,
+body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
 }
 
-main > *:not(header) {
-  max-width: var(--app-max-width);
+#root {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  color: var(--black);
+  background-image: url("/src/assets/portfolio-bg.jpg");
+}
+
+/* 
+
+RWD Template
+
+*/
+/* mobile */
+@media (min-width: 0px) {
+}
+/* mobile/tablet */
+@media (min-width: 426px) {
+}
+/* big tablet */
+@media (min-width: 769px) and (orientation: portrait) {
+}
+/* tiny laptop */
+@media (min-width: 769px) and (orientation: landscape) {
+}
+/* laptop/desktop */
+@media (min-width: 1025px) {
+}
+/* huge */
+@media (min-width: 1440px) {
 }
