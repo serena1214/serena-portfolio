@@ -1,0 +1,14 @@
+.NAV {
+  justify-self: flex-end;
+}
+.NAV ul {
+  width: max-content;
+  display: grid;
+  grid-template-columns: auto;
+  grid-auto-flow: column;
+  column-gap: 40px;
+}
+.NAV ul li {
+  color: var(--brown);
+  text-transform: uppercase;
+}
