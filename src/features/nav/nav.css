@@ -11,4 +11,5 @@
 .NAV ul li {
   color: var(--brown);
   text-transform: uppercase;
+  cursor: pointer;
 }
