@@ -1,0 +1,19 @@
+.FILM_STRIP {
+  display: flex;
+  justify-content: center;
+  transform: rotate(45deg);
+}
+
+.FILM_STRIP img {
+  animation: loop 60s infinite linear;
+  height: 200px;
+}
+
+@keyframes loop {
+  0% {
+    transform: translate(0);
+  }
+  100% {
+    transform: translate(100%);
+  }
+}
