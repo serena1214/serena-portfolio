@@ -1,11 +1,12 @@
 import "./App.css";
 import Header from "./features/header/Header";
 
+export const APP_ID = "app_id";
+
 function App() {
   return (
-    <main>
+    <main id={APP_ID}>
       <Header />
-      <p>Hello</p>
     </main>
   );
 }

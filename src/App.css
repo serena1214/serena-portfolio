@@ -3,6 +3,8 @@
   --black: #3c3733;
   --brown: #706962;
   --tan: #f4ede5;
+  --vh: 1vh;
+  --vw: 1vw;
 
   * {
     box-sizing: border-box;
