@@ -6,6 +6,7 @@ export default function FilmStrip() {
     <div className="FILM_STRIP">
       <img src={serenaFilm} />
       <img src={serenaFilm} />
+      <img src={serenaFilm} />
     </div>
   );
 }

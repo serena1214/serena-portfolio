@@ -8,8 +8,13 @@
   grid-auto-flow: column;
   column-gap: 40px;
 }
-.NAV ul li {
+.NAV ul li a {
   color: var(--brown);
   text-transform: uppercase;
   cursor: pointer;
+  padding-bottom: 6px;
+}
+
+.NAV ul li a.active {
+  border-bottom: 1px solid var(--brown);
 }

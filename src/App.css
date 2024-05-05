@@ -33,6 +33,13 @@ body {
   background-image: url("/src/assets/portfolio-bg.jpg");
 }
 
+main {
+  height: calc(100 * var(--vh));
+  width: calc(100 * var(--vw));
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
 /* 
 
 RWD Template

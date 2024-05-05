@@ -1,7 +1,6 @@
 .FILM_STRIP {
   display: flex;
-  justify-content: center;
-  transform: rotate(45deg);
+  justify-content: flex-end;
 }
 
 .FILM_STRIP img {

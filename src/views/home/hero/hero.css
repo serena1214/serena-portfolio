@@ -1,0 +1,83 @@
+.HERO {
+  height: calc(100 * var(--vh));
+  padding-top: var(---header-height);
+  background-image: url("/src/assets/hero-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  position: relative;
+}
+
+.hero__text {
+  align-self: center;
+  padding-left: 160px;
+  display: grid;
+  grid-auto-flow: row;
+}
+.hero__text span {
+  display: inline-flex;
+}
+.hero__text__one {
+  align-items: flex-end;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  margin-bottom: 16px;
+}
+.hero__text__two {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  margin-bottom: 28px;
+}
+.hero__text__three {
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.hero__text__four {
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 36px;
+}
+
+.hero__visual {
+  transform: rotate(45deg);
+  transform-origin: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.hero__action_button__container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding-bottom: 80px;
+}
+.hero__action_button {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.hero__action_button img {
+  width: 120px;
+  grid-area: 1 / 2 / 1/ 2;
+}
+img.hero__action_button__open {
+  opacity: 1;
+  width: 128px;
+}
+img.hero__action_button__closed {
+  opacity: 0;
+}
+.hero__action_button:hover img.hero__action_button__open {
+  opacity: 0;
+}
+.hero__action_button:hover img.hero__action_button__closed {
+  opacity: 1;
+}

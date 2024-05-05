@@ -5,6 +5,7 @@ export default function useViewport() {
     const observer = new ResizeObserver((entries) => {
       entries.forEach((entry) => {
         if (entry.target === document.documentElement) {
+          console.log(window.innerWidth);
           document.documentElement.style.setProperty(
             "--vh",
             `${window.innerHeight * 0.01}px`
